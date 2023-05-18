@@ -685,3 +685,10 @@ footer{
     color: #9937cd;
     font-weight: 700;
 }
+@media (max-width:400px) {
+    .social-media img{
+        width: 40px;
+        padding: 0 5px;
+        transition: 0.2s all ease;
+    }
+}
